@@ -14,7 +14,7 @@ function search(){
             document.writeln(element);
         }
     });
-
+}
 
 
 
