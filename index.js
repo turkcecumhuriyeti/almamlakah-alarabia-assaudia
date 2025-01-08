@@ -8,7 +8,7 @@ async function start(){
 start();
 
 function search(){
-    const inp = document.querySelector('input').value
+    const inp = document.querySelector('input').value;
     a.forEach(element=>{
         if(element.includes(inp){
             document.writeln(element);
