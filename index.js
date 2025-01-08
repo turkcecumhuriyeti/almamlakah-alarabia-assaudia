@@ -6,3 +6,28 @@ async function start(){
 }
 
 start();
+
+function search(){
+    const inp = document.querySelector('input').value
+    a.forEach(element=>{document.writeln(element);});
+        if(element[0].includes(inp)){
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
