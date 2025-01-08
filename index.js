@@ -9,8 +9,11 @@ start();
 
 function search(){
     const inp = document.querySelector('input').value
-    a.forEach(element=>{document.writeln(element);});
-        if(element[0].includes(inp)){
+    a.forEach(element=>{
+        if(element.includes(inp){
+            document.writeln(element);
+        }
+    });
 
 
 
