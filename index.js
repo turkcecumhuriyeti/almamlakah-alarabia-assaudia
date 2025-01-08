@@ -11,8 +11,8 @@ function search(){
     const inp = document.querySelector('input').value;
     document.querySelector('input').oninput = search;
     a.forEach(element=>{
-        if(element.includes(inp){
-            document.writeln(element);
+        if(element[0].includes(inp) || element[1].includes(inp){
+            document.writeln(`<h2>${element[0]}</h2><div>${element[1]}</div>`);
         }
     });
 }
@@ -22,16 +22,3 @@ function search(){
 
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
