@@ -10,10 +10,10 @@ start();
 
 function search(){
     const inp = document.querySelector('input').value;
-    document.getElementByld('result')inner.HTML = '';
+    document.getElementByld('result')innerHTML = '';
     a.forEach(element=>{
         if(element[0].includes(inp) || element[1].includes(inp)){
-            document.getElementByld('result').innerHtML +=(`<h2>${element[0]}</h2><div>${element[1]}</div>`);
+            document.getElementByld('result').innerHtML +=`<h2>${element[0]}</h2><div>${element[1]}</div>`;
         }
     });
 }
